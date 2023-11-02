@@ -1,1 +1,1 @@
-# Take2 Chrome Extension
+# TakeTwo Chrome Extension
