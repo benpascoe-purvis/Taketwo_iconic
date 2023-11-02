@@ -8,8 +8,5 @@ export function scrapeProductDetails_iconic() {
     productColor,
     productTitle,
     productBrand,
-    productGender,
-    productCategory,
-    productImageLink,
   });
 }
