@@ -22,19 +22,6 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
 
   let productBrand = document.querySelector("#product-brand");
   productBrand.innerText = request.productBrand;
-
-  let productGender = document.querySelector("#product-gender");
-  productGender.innerText = request.productGender;
-
-  let productCategory = document.querySelector("#product-category");
-  productCategory.innerText = request.productCategory;
-
-  let productImage = document.querySelector("#product-image");
-  productImage.src = request.productImageLink;
-  productImage.width = 100;
-
-  // fetchAndPopulateData("pink");
-  // fetchAndPopulateData(productColor.innerText);  //TODO: Fix bug in scraper API
 });
 
 extractDepopInfoButton.addEventListener("click", async () => {
